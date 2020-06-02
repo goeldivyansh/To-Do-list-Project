@@ -29,6 +29,6 @@ $("input[type='text']").on("keypress",function(event){
 
 $(".glyphicon-plus").on("click",function(event){
 
-	$("input[type='text']").fadeToggle("fast","linear");
+	$("input[type='text']").fadeToggle("fast");
 });
 

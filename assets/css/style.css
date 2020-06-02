@@ -15,6 +15,28 @@ h1 {
 	letter-spacing: 1px;
 }
 
+span {
+	font-size: 20px; 
+	margin-right: 20px;
+	padding: 7px 0px 0px 5px;
+	width: 0px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+input {
+	color: #2980b9;
+	width: 100%;
+	font-size: 18px;
+	background-color: #f7f7f7;
+	border: none;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+}
+
 ul {
 	font-size: 20px;
 	list-style: none;
@@ -30,44 +52,15 @@ li {
 	color: #18262b;
 }
 
-span {
-	font-size: 20px; 
-	margin-right: 20px;
-	padding: 7px 0px 0px 5px;
-
-	width: 0px;
-	text-align: center;
-	line-height: 40px;
-	display: inline-block;
-	transition: 0.2s linear;
-	opacity: 0;
-}
 
 li:hover span {
+	color: #18262b;
 	opacity: 1;
 	width: 20px;
 }
 
 li:hover {
 	color: lightgray;
-}
-
-span:hover {
-	color: #d60909;
-}
-
-li:nth-child(2n) {
-	background-color: #f7f7f7;
-}
-
-input {
-	color: #2980b9;
-	width: 100%;
-	font-size: 18px;
-	background-color: #f7f7f7;
-	border: none;
-	padding: 13px 13px 13px 20px;
-	box-sizing: border-box;
 }
 
 input:hover {
@@ -78,6 +71,10 @@ input:focus {
 	background: white;
 	border : 3px solid skyblue;
 	outline: none;
+}
+
+li:nth-child(2n) {
+	background-color: #f7f7f7;
 }
 
 #container {
@@ -92,6 +89,9 @@ input:focus {
 	text-decoration: line-through;;
 }
 
+.glyphicon-trash:hover {
+	color: #d60909;
+}
 
 .glyphicon-plus {
 	font-size: 23px;
@@ -104,4 +104,3 @@ input:focus {
 .glyphicon-plus:hover {
 	color: 	#32CD32;
 }
-
